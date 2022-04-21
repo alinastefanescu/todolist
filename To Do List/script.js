@@ -39,11 +39,13 @@ function displayTodo() {
     let htmlCode = "";
 
     todoArray.forEach((list, ind) => {
-        htmlCode += `<div>
+       htmlCode += todoArray.map((list,index) => `
+    <div>
         <p>${list}</p>
-        <button onclick='edit(${ind})' >Edit</button>
-        <button onclick='deleteTodo(${ind})'>Delete</button>
-    </div>`
+        <button onclick="edit(${index})">Edit</button>
+        <button onclick="deleteTodo(${index}")'>Delete</button>
+      </div>
+`).join()
     });
     listBox.innerHTML = htmlCode;
 }

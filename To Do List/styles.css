@@ -1,0 +1,64 @@
+.mainDiv {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-family: Verdana;
+    align-items: center;
+}
+
+.secondaryDiv {
+    border: 2px , rounded , shadow;
+    width: auto;
+    color: blueviolet;
+    align-items: center;
+}
+
+h1 {
+    font: medium;
+    color: green;    
+    align-items: center;
+    font-family: Cambria;
+}
+
+
+.todoListAppDiv {
+    background-color: rgb(131, 74, 4);
+    align-items: center;
+}
+
+
+#text {
+    box-shadow: none;
+    border: rounded, 2px;
+    width:auto;
+    color: rgb(23, 8, 233);
+    align-items: center;
+}
+
+#add-task-btn {
+    text-align: center;
+    border: solid;
+    border-color:aqua;
+    background-color: blueviolet;
+    color: white;
+    font-style: italic;
+    font-family: cursive;
+}
+
+#save-todo-btn {
+    text-align: left;
+    border: royalblue;
+    background-color: rgb(223, 226, 43);
+    color: rgb(17, 11, 11);
+    text-shadow: 1px;
+    display: none;
+}
+
+#listBox {
+    text-align: left;
+    border:darkblue;
+    background-color: #cffac9;
+    color: rgb(245, 82, 53);
+    font-style: italic;
+    font-family: Verdana;
+}
